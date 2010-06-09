@@ -1,3 +1,4 @@
+.*.swp
 sendmsg.egg-info/*
 MANIFEST.in
 build/*
