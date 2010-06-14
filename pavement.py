@@ -12,6 +12,8 @@ setup(
     description="send file descriptors over AF_UNIX sockets via sendmsg(2)",
     version="1.0",
     license="bsd",
+    author="Libor Michalek",
+    author_email="libor@pobox.com",
     ext_modules=[Extension(
         'sendmsg',
         ['sendmsg.c'],
